@@ -336,7 +336,7 @@ a:focus {
     -o-background-size: cover;
 }
 
-.sponsor-section a {
+.sponsor-section .img-responsive {
     display: inline-block;
 
 }
