@@ -129,6 +129,17 @@ a:focus {
         background-color: white;
         color: black;
     }
+
+    .nav {
+        background-color: white;
+        background-size: cover;
+        
+    }
+
+    .nav a {
+        color: black;
+        text-align: center;
+    }
 } 
 
 @media(min-width:768px) {
@@ -288,10 +299,6 @@ a:focus {
     -o-background-size: cover;
 }
 
-#about a {
-    color: blue;
-}
-
 .google-maps {
     position: relative;
     padding-bottom: 56.25%; //This is the aspect ratio
@@ -306,23 +313,6 @@ a:focus {
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-figure {
-    display: inline-block;
-}
-
-figcaption {
-    text-align: left;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-figure:hover {
-    background: (255, 255, 255, .8);
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-
 }
 
 .sponsor-section {
@@ -349,12 +339,6 @@ figure:hover {
     -o-background-size: cover;
 }
 
-#map {
-    width: 100%;
-    height: 200px;
-    margin-top: 100px;
-}
-
 @media(min-width:767px) {
     .content-section {
         padding-top: 0;
@@ -362,11 +346,6 @@ figure:hover {
 
     .sponsor-section {
         padding: 100px 0;
-    }
-
-    #map {
-        height: 400px;
-        margin-top: 250px;
     }
 }
 
