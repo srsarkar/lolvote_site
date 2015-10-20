@@ -299,6 +299,15 @@ a:focus {
     -o-background-size: cover;
 }
 
+.about-section a {
+    color:white;
+    font-weight: bold;
+}
+
+.about-section a:hover {
+    color: #C0C0C0;
+}
+
 .google-maps {
     position: relative;
     padding-bottom: 56.25%; //This is the aspect ratio
@@ -325,6 +334,11 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.sponsor-section a {
+    display: inline-block;
+
 }
 
 .contact-section {
