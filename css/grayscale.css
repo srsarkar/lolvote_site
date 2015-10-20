@@ -288,6 +288,10 @@ a:focus {
     -o-background-size: cover;
 }
 
+#about a {
+    color: blue;
+}
+
 .google-maps {
     position: relative;
     padding-bottom: 56.25%; //This is the aspect ratio
