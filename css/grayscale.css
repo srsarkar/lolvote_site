@@ -299,6 +299,11 @@ a:focus {
     -o-background-size: cover;
 }
 
+.about-section .text, .about-section .google-maps {
+    text-align: left;
+    display: inline;
+}
+
 .about-section a {
     color:white;
     font-weight: bold;
